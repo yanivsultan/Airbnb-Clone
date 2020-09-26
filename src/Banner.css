@@ -26,6 +26,7 @@
     text-transform: inherit !important;
     color: #FF5A5F;
     border-radius: 0;
+
 }
 
 .banner__info > button{
@@ -33,11 +34,14 @@
     color: white;
     text-transform: inherit;
     font-weight: 600;
+    margin-top: 18px;
 }
 
 .banner__info > button:hover{
     background-color: white;
     color: #FF5A5F;
-    text-transform: inherit;
-    font-weight: 600;
+}
+
+.banner__info > h5 {
+    margin-top: 10px;
 }
