@@ -6,8 +6,10 @@ import "react-date-range/dist/styles.css"
 import "react-date-range/dist/theme/default.css"
 
 import { DateRangePicker } from "react-date-range"
+import { useHistory } from "react-router-dom";
 
 function Banner() {
+  const history = useHistory();
   const [showSearch, setShowSearch] = useState(false);
 
   return (
@@ -26,7 +28,7 @@ function Banner() {
         <h5>
           Plan a different kind of gateaway to cover the hidden gems near you.
         </h5>
-        <Button varient='outlined'>Explore Nearby</Button>
+        <Button onClick={() => history.push('/search')} varient='outlined'>Explore Nearby</Button>
       </div>
     </div>
   );
