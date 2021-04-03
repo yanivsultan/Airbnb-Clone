@@ -1,6 +1,8 @@
 Simple Airbnb clone built with React & firebase, this project is Front-End only.
 * firebase has been used for hosting purposes only.
 
+Link to app: https://airbnb-clone-dd1b4.web.app/
+
 Project images:
 
 Main screen:
